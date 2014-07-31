@@ -1,0 +1,28 @@
+{
+  "name": "jsbuild-template",
+  "version": "0.0.0",
+  "authors": [
+    "Martin Magana <magana.web@gmail.com>"
+  ],
+  "description": "An example Javascript build environment.",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.14",
+    "jquery": "~2.1.1",
+    "almond": "~0.2.9"
+  }
+}
